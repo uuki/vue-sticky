@@ -1,0 +1,53 @@
+{
+  "name": "vue-sticky-alter",
+  "version": "1.0.0",
+  "description": "Sticky directive for Vue 2.x. Based on rguanghui/vue-sticky (https://github.com/rguanghui/vue-sticky)",
+  "main": "dist/vue-sticky.js",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --config ./webpack.dev.config.js --inline --hot --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uuki/vue-sticky.git"
+  },
+  "keywords": [
+    "vue-sticky",
+    "sticky"
+  ],
+  "author": "uuki",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-register": "^6.22.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "uglifyjs-webpack-plugin": "^1.1.1",
+    "style-loader": "^0.19.1",
+    "vue": "^2.5.2",
+    "vue-hot-reload-api": "^1.2.2",
+    "vue-loader": "^13.3.0",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "engines": {
+    "node": ">= 6.11.0",
+    "yarn": ">= 1.3.2"
+  },
+  "browsers": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
