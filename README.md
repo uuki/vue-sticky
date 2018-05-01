@@ -6,9 +6,17 @@ Sticky plugin for Vue 2. Based on [rguanghui/vue-sticky](https://github.com/rgua
 
 ## Installation
 
+```bash
+$ yarn add vue-sticky-alter
+```
+or
+```bash
+$ npm install vue-sticky-alter
+```
+
 ```js
 import Vue from 'vue'
-import VueSticky from 'vue-sticky'
+import VueSticky from 'vue-sticky-alter'
 
 Vue.use(VueSticky)
 ```
